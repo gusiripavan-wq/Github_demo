@@ -6,6 +6,7 @@ test ('login test',async({page})=>{
     await page.locator("#txtUsername").fill("Admin")
     await page.locator("#txtPassword").fill("Qedge123!@#")
     await page.locator("#btnLogin").click()
+    await page.locator("#welcome").click()
 
 
 
